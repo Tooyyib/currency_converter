@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/converter.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="router"><a href="/pages/exchange.html">Goto bitcoin Page</a></button>
+    <div class="intro">
+        <h1>😃 if you know say you no like this kind background color make you change the color below.</h1> <br>
+
+        <input class="choose" type="button" value="changeBackground" onclick="changeBackground()">
+    
+        <script>
+          function changeBackground (){
+            document.body.style.background = "#fed611"
+          }
+        </script>
+    
+    </div>
+    
+
+
+
+
+<div class="first">
+    <div class="pikin">
+        <marquee>
+            <h1>Check out to know your country currency value compare to another currency</h1>
+        </marquee>
+    </div>
+</div>
+
+
+<!-- corrency converter div  -->
+
+    <div class="curr">
+        <div class="son">
+            <h1>currency converter</h1>
+            <div class="exchange">
+                <div class="flex">
+                    <select class="currency" name="" id="">
+                        <option value="select">select</option>
+                    </select>
+                    <input id="input_currency" placeholder="Amount" type="number" name="">
+                </div>
+                
+
+
+                <div class="flex">
+                    <select class="currency" name="" id="">
+                        <option value="select">select</option>
+                    </select>
+                    <input id="output_currency" placeholder="result" type="text" disabled name="">
+                </div>
+            </div>
+            <div class="centra">
+                <button class="button1" onclick="converter()" id="btn">convert</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="/js/converter.js"></script>
+</body>
+</html>

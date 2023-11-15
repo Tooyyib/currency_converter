@@ -1,0 +1,53 @@
+body{
+    background-color: powderblue;
+}
+
+button{
+    background-color: blue;
+    color: gold;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100px;
+}
+
+h1{
+    color: darkcyan;
+}
+
+
+
+/* seat work */
+.demo{
+    background-color: rgba(0, 0, 255, 0.69);
+    color: gold;
+    width: 50%;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+
+.router{
+    background-color: black;
+    padding: 3px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 5px solid pink;
+    border-style: dashed;
+    font-style: italic;
+    width: 200px;
+}
+
+.router :hover{
+    background-color: black;
+    color: white;
+}
+
